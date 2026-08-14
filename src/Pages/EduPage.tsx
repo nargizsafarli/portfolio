@@ -1,8 +1,12 @@
 import React from 'react'
+import Nav from '../components/Navbar/Nav'
 
 function EduPage() {
   return (
-    <div>EduPage</div>
+    <div>
+      <Nav/>
+      tehsill
+    </div>
   )
 }
 

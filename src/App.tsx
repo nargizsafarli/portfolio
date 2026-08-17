@@ -3,13 +3,17 @@ import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import SkillsPage from "./Pages/SkillsPage";
 import ProjectsPage from "./Pages/ProjectsPage";
-import EduPage from "./Pages/EduPage"
+import EduPage from "./Pages/EduPage" 
+
 // import Nav from "./components/Navbar/Nav";
 // import Nav from "./components/Navbar/Nav";
 export default function App() {
   return (
-    <div>
+    <div 
+    // className="grid-background min-h-screen"
+    >
      <BrowserRouter>
+    
      {/* <Nav/> */}
      <Routes>
       <Route path="/" element={<HomePage/>}/>
